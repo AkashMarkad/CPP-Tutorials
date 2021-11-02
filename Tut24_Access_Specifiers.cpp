@@ -27,6 +27,6 @@ class MyClass {
 int main() {
   MyClass myObj;
   myObj.x = 25;  // Allowed (public)
-  myObj.y = 50;  // Not allowed (private) --- error occured here
+  // myObj.y = 50;  // Not allowed (private) --- error occured here
   return 0;
 }
